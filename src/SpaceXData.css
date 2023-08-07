@@ -1,0 +1,63 @@
+.container {
+  margin: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.input-form{
+  width: 20%;
+  border-radius: 6px;
+}
+
+.data-table-container {
+  margin-top: 20px;
+}
+.form-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.form-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #dfdddd;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0px 10px;
+}
+
+.form-button:hover {
+  background-color: #82d2ff;
+}
+
+.form-button:active {
+  background-color: #004499;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #ddd;
+}

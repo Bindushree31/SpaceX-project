@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  font-family: Arial,Verdana,sans-serif;;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Header-content{
+    min-height: 90vh;
+    background: linear-gradient(rgba(143, 215, 213, 0.6), rgba(141, 50, 50, 0.5)), url("./images/Spacex.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+
+.Heading-title{
+  text-align: center;
+  font-size: 30px;
+  color: #081318;
 }
 
 @media (prefers-reduced-motion: no-preference) {
